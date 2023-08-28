@@ -1,0 +1,88 @@
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #f7e8e8;
+    background: linear-gradient(to bottom, #ffffff, #f7e8e8, #dca3a3); 
+    /* background-image: url('bg-image.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover; */
+}
+
+header section {
+    background-color: #fffacd;
+}
+
+img {
+    width:15vw;
+    float: left;
+    margin-right: 2vw;
+}
+
+section ul {
+    padding-left: 20vw;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1.5rem 0;
+    font-size: .9rem;
+    color: #0003a8;
+}
+
+a {
+    color: #007acc;
+    color: #0004ff;
+    text-decoration: none;
+}
+a:hover {
+    color: crimson;
+}
+a:visited {
+    color: rgb(97, 97, 97);
+}
+
+q {
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    quotes: none;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    background-color: #e4e4e4;
+    border-left: 3px solid black;
+    padding-left: 30px;
+    margin: 80px;
+    font-style: italic;
+}
+
+.farmer {
+    border-left-color: #ff8c00;
+}
+.villagers {
+    border-left-color: #007acc;
+    border-left-color: #800080;
+}
+
+.good,
+.bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: crimson;
+}
+
+.good {
+    color: green;
+}
+
+tbody tr:nth-child(2n + 1)  {
+    background-color: gainsboro;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
