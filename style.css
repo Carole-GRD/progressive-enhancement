@@ -10,7 +10,7 @@ body {
     background-size: cover; */
 }
 
-header section {
+header div {
     background-color: #fffacd;
 }
 
@@ -81,6 +81,10 @@ q {
 
 tbody tr:nth-child(2n + 1)  {
     background-color: gainsboro;
+}
+
+caption {
+    caption-side: bottom;
 }
 
 p:first-of-type {
