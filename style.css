@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat&family=Open+Sans:wght@300;400&family=Raleway:wght@300&family=Rubik&family=Rubik+Iso&family=Sedgwick+Ave+Display&display=swap');
 
 body {
     max-width: 90%;
@@ -8,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 header div {
@@ -25,7 +27,7 @@ section ul {
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     margin: 1.5rem 0;
     font-size: .9rem;
     color: #0003a8;
